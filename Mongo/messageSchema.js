@@ -17,6 +17,9 @@ const messageSchema = new mongoose.Schema({
   lead_no:{
     type : Number,
   },
+  image:{
+    type:String
+  },
   body: {
     type: String,
     
